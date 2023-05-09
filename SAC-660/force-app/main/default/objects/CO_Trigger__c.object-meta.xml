@@ -8,4 +8,11 @@
         <required>true</required>
         <type>Lookup</type>
     </fields>
+    <fields>
+        <fullName>Name</fullName>
+        <externalId>false</externalId>
+        <label>Name</label>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
 </CustomObject>

@@ -1,0 +1,13 @@
+<!-- XML Code -->
+<?xml version="1.0" encoding="UTF-8"?>
+<ApexTrigger xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>47.0</apiVersion>
+    <status>Active</status>
+    <triggerName>LimitQuestions</triggerName>
+    <description>Trigger to limit the number of questions in a survey to 20</description>
+    <tableEnumOrId>Survey_Question__c</tableEnumOrId>
+    <triggerType>before</triggerType>
+    <Content>
+        <class>LimitQuestions</class>
+    </Content>
+</ApexTrigger>
